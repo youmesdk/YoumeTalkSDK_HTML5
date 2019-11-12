@@ -1,0 +1,231 @@
+.editor .comment,
+.editor .punctuation.definition.comment,
+.editor .string.comment {
+    color: #6a737d;
+}
+.editor .constant,
+.editor .entity.name.constant,
+.editor .variable.other.constant,
+.editor .variable.language {
+    color: #005cc5;
+}
+.editor .entity,
+.editor .entity.name {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #6f42c1;
+}
+.editor .variable.parameter.function {
+    color: #24292e;
+}
+.editor .entity.name.tag {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #22863a;
+}
+.editor .keyword {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #d73a49;
+}
+.editor .storage,
+.editor .storage.type {
+    color: #d73a49;
+}
+.editor .storage.modifier.package,
+.editor .storage.modifier.import,
+.editor .storage.type.java {
+    color: #24292e;
+}
+.editor .string,
+.editor .punctuation.definition.string,
+.editor .string .punctuation.section.embedded .source {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #032f62;
+}
+.editor .support {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #005cc5;
+}
+.editor .meta.property-name {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #005cc5;
+}
+.editor .variable {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #e36209;
+}
+.editor .variable.other {
+    color: #24292e;
+}
+.editor .invalid.broken {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #b31d28;
+}
+.editor .invalid.deprecated {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #b31d28;
+}
+.editor .invalid.illegal {
+    font-style: italic;
+    text-decoration: underline;
+    background-color: #b31d28;
+    color: #fafbfc;
+}
+.editor .carriage-return {
+    font-style: italic;
+    text-decoration: underline;
+    background-color: #d73a49;
+    color: #fafbfc;
+}
+.editor .invalid.unimplemented {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #b31d28;
+}
+.editor .message.error {
+    color: #b31d28;
+}
+.editor .string .source {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #24292e;
+}
+.editor .string .variable {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #005cc5;
+}
+.editor .source.regexp,
+.editor .string.regexp {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #032f62;
+}
+.editor .string.regexp.character-class,
+.editor .string.regexp .constant.character.escape,
+.editor .string.regexp .source.ruby.embedded,
+.editor .string.regexp .string.regexp.arbitrary-repitition {
+    color: #032f62;
+}
+.editor .string.regexp .constant.character.escape {
+    font-weight: bold;
+    color: #22863a;
+}
+.editor .support.constant {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #005cc5;
+}
+.editor .support.variable {
+    color: #005cc5;
+}
+.editor .meta.module-reference {
+    color: #005cc5;
+}
+.editor .markup.list {
+    color: #735c0f;
+}
+.editor .markup.heading,
+.editor .markup.heading .entity.name {
+    font-weight: bold;
+    color: #005cc5;
+}
+.editor .markup.quote {
+    color: #22863a;
+}
+.editor .markup.italic {
+    font-style: italic;
+    color: #24292e;
+}
+.editor .markup.bold {
+    font-weight: bold;
+    color: #24292e;
+}
+.editor .markup.raw {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #005cc5;
+}
+.editor .markup.deleted,
+.editor .meta.diff.header.from-file,
+.editor .punctuation.definition.deleted {
+    background-color: #ffeef0;
+    color: #b31d28;
+}
+.editor .markup.inserted,
+.editor .meta.diff.header.to-file,
+.editor .punctuation.definition.inserted {
+    background-color: #f0fff4;
+    color: #22863a;
+}
+.editor .markup.changed,
+.editor .punctuation.definition.changed {
+    background-color: #ffebda;
+    color: #e36209;
+}
+.editor .markup.ignored,
+.editor .markup.untracked {
+    color: #f6f8fa;
+    background-color: #005cc5;
+}
+.editor .meta.diff.range {
+    color: #6f42c1;
+    font-weight: bold;
+}
+.editor .meta.diff.header {
+    color: #005cc5;
+}
+.editor .meta.separator {
+    font-weight: bold;
+    color: #005cc5;
+}
+.editor .meta.output {
+    color: #005cc5;
+}
+.editor .brackethighlighter.tag,
+.editor .brackethighlighter.curly,
+.editor .brackethighlighter.round,
+.editor .brackethighlighter.square,
+.editor .brackethighlighter.angle,
+.editor .brackethighlighter.quote {
+    color: #586069;
+}
+.editor .brackethighlighter.unmatched {
+    color: #b31d28;
+}
+.editor .sublimelinter.mark.error {
+    color: #b31d28;
+}
+.editor .sublimelinter.mark.warning {
+    color: #e36209;
+}
+.editor .sublimelinter.gutter-mark {
+    color: #959da5;
+}
+.editor .constant.other.reference.link,
+.editor .string.other.link {
+    color: #032f62;
+    text-decoration: underline;
+}
