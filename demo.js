@@ -51,7 +51,7 @@ var APIKEY = "f2d520691f378d9e37ccfc76f46fbdb0";// 实际使用时，API KEY只�
         appKey: YM_APPKEY,
         video: true,  // true - 视频+音频，false - 仅语音
         debug: true, //开启测试日志
-        dev: true //是用测试环境
+        dev: false //是用测试环境
     });
 
 
